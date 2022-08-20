@@ -1,0 +1,10 @@
+            <div class="form-group">
+                <label asp-for="ImgUrl" class="control-label"></label>
+                <input type="file" name="file" id="file" onchange="document.getElementById('profile').src = window.URL.createObjectURL(this.files[0])" class="form-control" />
+            </div>
+            
+            <div class="col-md-6">
+            <img src="" id="profile" class="img-fluid" />
+        </div>
+        
+        =================================================================================================================================================================
